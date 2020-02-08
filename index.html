@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/favicon-32x32.png" type="image/x-icon">
+    <link rel="stylesheet" href="styles/main.css">
+    <title>Mister Blogger | Rami</title>
+</head>
+<body>
+    <div class="screen" onclick="toggleMenu()"></div>
+    <nav class="main-nav-container">
+        <div class="nav-container container flex space-between align-center">
+            <div class="logo">Blogin</div>
+            <ul class="main-nav-links flex clean-list">
+                <a class="nav-link" href="#">
+                    <li>Journal</li>
+                </a>
+                <a class="nav-link" href="#">
+                    <li>About</li>
+                </a>
+                <a class="nav-link" href="#">
+                    <li>Work</li>
+                </a>
+                <a class="nav-link" href="#">
+                    <li>Contact</li>
+                </a>
+            </ul>
+            <button class="menu-btn" onclick="toggleMenu()">☰</button>
+        </div>
+    </nav>
+
+    <main class="main-content container">
+        <div class="card flex">
+            <img class="card-img" src="img/cards/001.jpg" alt="">
+            <div class="text-container flex col space-between">
+                <h2 class="card-title">Duis aute irure dolor in henderit in voluptate.</h2>
+                <p class="card-text">
+                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commo
+                    doconsequat, sunt in culpa qui officia deserunt mollit anim id est laborum. </br></br>
+                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                    pariatur...
+                </p>
+
+                <a class="continue-reading-link flex center align-center" href="#">
+                    <div class="continue-reading">Continue Reading </div>
+                </a>
+            </div>
+        </div>
+        <div class="card flex">
+            <img class="card-img" src="img/cards/002.jpg" alt="">
+            <div class="text-container flex col space-between">
+                <h2 class="card-title">Duis aute irure dolor in henderit in voluptate.</h2>
+                <p class="card-text">
+                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commo
+                    doconsequat, sunt in culpa qui officia deserunt mollit anim id est laborum. </br></br>
+                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                    pariatur...
+                </p>
+                <a class="continue-reading-link flex center align-center" href="#">
+                    <div class="continue-reading">Continue Reading </div>
+                </a>
+            </div>
+        </div>
+        <div class="card flex">
+            <img class="card-img" src="img/cards/003.jpg" alt="">
+            <div class="text-container flex col space-between">
+                <h2 class="card-title">Duis aute irure dolor in henderit in voluptate.</h2>
+                <p class="card-text">
+                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commo
+                    doconsequat, sunt in culpa qui officia deserunt mollit anim id est laborum. </br></br>
+                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                    pariatur...
+                </p>
+                <a class="continue-reading-link flex center align-center" href="#">
+                    <div class="continue-reading">Continue Reading </div>
+                </a>
+            </div>
+        </div>
+        <div class="change-page-container flex space-between align-center">
+            <a class="change-page clean-link" href="#">← Previous</i></a>
+            <a class="change-page clean-link" href="#">Next →</i></a>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-container container flex col space-between align-center">
+            <div class="footer-logo">Blogin</div>
+            <small class="legal">© 2014 Blogin.com - All Rights Reserved - Find more free Templates at Pixelhint.com</small>
+            <div class="social-links-container flex row space-between">
+                <div class="social-link"><a href="#"><i class="fab fa-facebook-square"></i></a></div>
+                <div class="social-link"><a href="#"><i class="fab fa-twitter-square"></i></a></div>
+                <div class="social-link"><a href="#"><i class="fab fa-behance-square"></i></a></div>
+                <div class="social-link"><a href="#"><i class="fab fa-dribbble-square"></i></a></div>
+            </div>
+        </div>
+    </footer>
+    <script>
+        function toggleMenu() {
+            document.body.classList.toggle('menu-open');
+        }
+    </script>
+    <script src="https://kit.fontawesome.com/bbd32392a2.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
