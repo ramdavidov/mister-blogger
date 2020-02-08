@@ -10,19 +10,19 @@
 }
 
 @font-face {
-    font-family: Lato-Regular;
-    src: url(/fonts/Lato-Regular.ttf);
+    font-family: lato-regular;
+    src: url(/fonts/lato-regular.ttf);
 }
 
 @font-face {
-    font-family: Lato-Bold;
-    src: url(/fonts/Lato-Bold.ttf);
+    font-family: lato-bold;
+    src: url(/fonts/lato-bold.ttf);
 }
 
 /* Base */
 
 html {
-    font-family: Lato-Regular;
+    font-family: lato-regular;
     color: #606060;
 }
 
@@ -45,7 +45,7 @@ h2 {
     font-size: 1.75rem;
     letter-spacing: 0.052rem;
     line-height: 1.875rem;
-    font-family: Lato-Bold;
+    font-family: lato-bold;
     text-transform: uppercase;
     margin: 0 0 0 0;
 }
