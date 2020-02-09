@@ -6,17 +6,17 @@
 
 @font-face {
     font-family: Eurofurence;
-    src: url(/fonts/eurof35.ttf);
+    src: url(../fonts/eurof35.ttf);
 }
 
 @font-face {
     font-family: lato-regular;
-    src: url(/fonts/lato-regular.ttf);
+    src: url(../fonts/lato-regular.ttf);
 }
 
 @font-face {
     font-family: lato-bold;
-    src: url(/fonts/lato-bold.ttf);
+    src: url(../fonts/lato-bold.ttf);
 }
 
 /* Base */
